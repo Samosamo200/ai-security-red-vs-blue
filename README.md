@@ -1,4 +1,4 @@
-# 09 – AI Security: Red Team vs Blue Team
+# AI Security: Red Team vs Blue Team
 
 Securing an LLM application in Azure. A deliberately vulnerable HR chatbot built on **Azure OpenAI (gpt-5-mini)** is attacked, hardened, and monitored – and the attack success rate is measured before and after.
 
@@ -194,7 +194,8 @@ Both incidents were assigned, investigated, documented and resolved. Since all a
 Prerequisites: Python 3.10+, Azure CLI, a gpt-5-mini deployment in Microsoft Foundry, and the *Cognitive Services OpenAI User* role on the Foundry resource.
 
 ```powershell
-cd 09-ai-security-red-vs-blue
+git clone https://github.com/Samosamo200/ai-security-red-vs-blue.git
+cd ai-security-red-vs-blue
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
